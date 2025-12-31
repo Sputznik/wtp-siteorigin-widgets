@@ -13,7 +13,7 @@ class WTP_SOW_WIDGETS {
   }
 
   function assets(){
-    wp_enqueue_script( 'sow-typed-js', WTP_SOW_URI.'/assets/js/wtp-ai-prompt.js', array('jquery'), WTP_SOW_VERSION, true );
+    wp_enqueue_script( 'wtp-ai-prompt-js', WTP_SOW_URI.'/assets/js/wtp-ai-prompt.js', array('jquery'), WTP_SOW_VERSION, true );
   }
 
 }
